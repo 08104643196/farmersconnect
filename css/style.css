@@ -1,0 +1,390 @@
+/*++++++ fonts========*/
+/* .kanit-thin {
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .kanit-extralight {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .kanit-light {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .kanit-regular {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .kanit-medium {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .kanit-semibold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .kanit-bold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .kanit-extrabold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .kanit-black {
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .kanit-thin-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .kanit-extralight-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .kanit-light-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .kanit-regular-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .kanit-medium-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .kanit-semibold-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .kanit-bold-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .kanit-extrabold-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .kanit-black-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+ }*/
+
+
+
+.signika- <uniquifier> {
+  font-family: "Signika", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "GRAD" 0;
+}
+  body{
+    font-family: "signika", sans-serif;
+  }
+
+  header{
+    background-size: cover;
+    background-position: center;
+    min-height: 720px;
+}
+.top-btn{
+  background-color: transparent;
+  border-radius: 10px;
+  border: solid 1px white;
+  transform: scale(1.4);
+  margin-top: 30px;
+}
+.top-btn:hover{
+  background-color: white;
+  color: rgb(1, 49, 1);
+  border: 3px solid rgb(1, 49, 1);
+  
+}
+ul{
+    text-decoration: none;
+  }
+li{
+    text-transform: capitalize;
+    font-weight: 450;
+    margin-top: 20px;
+    
+
+}
+li a:hover{
+    background-color: rgb(92, 186, 92);
+
+}
+.search-box{
+    flex: 1;
+    position: relative;
+
+}
+.search-box input{
+    width: 100%;
+    height:40px;
+    border: none;
+    outline: none;
+    background: #f2f2f2;
+    border-radius: 30px;
+    color: rgb(1, 49, 1);
+    font-size: 16px;
+    text-align: center;
+}
+.search-box button{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: scale(0.9);
+    background: rgb(1, 49, 1);
+    margin-top: 11px;
+    margin-right: 1px;
+}
+.head-text{
+    text-align: center;
+}
+.head-text h3{
+    font-weight: 600;
+    color: white;
+    text-transform: capitalize;
+}
+.head-text p{
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+
+}
+.about img{
+  margin-left: 300px;
+}
+.r{
+  font-size: 70px;
+  font-weight: 600;
+}
+.head{
+  border: 3px rgb(1, 49, 1) solid;
+  font-size: 20px;
+  font-weight: 900;
+  border-radius: 20px;
+  
+}
+.head:hover{
+  color: white;
+  background-color: rgb(1, 49, 1);
+  transition: 0.7s;
+}
+.register-btn{
+  border-radius: 10px;
+  
+}
+.modal input{
+  text-align: center;
+}
+.card-feature .card-title{
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: black;
+  text-align: center;
+
+}
+.down{
+  border-radius: 40px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #d4b60886;
+}
+.create-text{
+ text-align: center;
+ font-size: 60px;
+  font-weight: 600;
+}
+.market-contanier{
+padding-left: 50px;
+padding-right: 50px;
+}
+.login-text{
+  border: solid;
+  border-color: white;
+  padding:  2px 6px  ;
+}
+.img-shape{
+  border-radius: 50%;
+
+}
+.mod-head{
+  font-weight: 600;
+  font-size: 30px;
+  text-transform: capitalize;
+  color: rgb(1, 49, 1);
+}
+.market .col{
+  background-color: beige;
+}
+
+.btns {
+  font-size: 0.9rem;
+  padding: 1rem 1.9rem;
+  border: none;
+  outline: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  text-transform: capitalize;
+  color: rgb(1, 49, 1);
+  font-weight: 700;
+  transition: 0.6s;
+  box-shadow: 0px 0px 15px rgb(1, 49, 1);
+}
+
+.btns:active {
+  scale: 0.92;
+}
+
+.btns:hover {
+  background: rgb(1, 49, 1);
+  background: linear-gradient(270deg, rgb(1, 49, 1) 0%, rgb(35, 78, 35));
+  color: white;
+}
+.foter{
+  background-color: rgb(1, 49, 1);
+}
+.footer-search{
+  flex: 1;
+  position: relative;
+}
+.footer-input{
+  border-radius: 20px;
+  text-align: center;
+    width: 100%;
+    height:30px;
+    border: none;
+    outline: none;
+    background: #f2f2f2;
+    border-radius: 30px;
+    color: gray;
+    font-size: 16px;
+    text-align: center;
+}
+.footer-search button{
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  border: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: scale(0.9);
+  background: yellow;
+  margin-top: 0;
+  margin-right: 1px;
+}
+.end-text{
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 20px;
+  color: rgb(1, 49, 1);
+  text-align: center;
+  
+}
+.end-li{
+  font-size: 17px;
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
+}
+.end-li:hover{
+  background-color: transparent;
+}
+.mid p:hover{
+    color: green;
+}
+.products-items{
+  /* height: 100%;
+  width: 100px; */
+ margin: 2px;
+ padding: 5px;
+ background-color: black;
+}
+@media only screen and (max-width: 560px){
+  .show img{
+    height: 500px;
+    object-fit: cover;
+  }
+  .items{
+   
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
